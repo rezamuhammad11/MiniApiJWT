@@ -1,4 +1,4 @@
-FROM .NET
+FROM aspnet:6.0
 
 # Create app directory
 WORKDIR /usr/src/app
