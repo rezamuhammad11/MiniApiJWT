@@ -1,3 +1,4 @@
+chmod +x docker-entrypoint.sh
 #!/bin/sh -l
 
 echo "Hello $1"
