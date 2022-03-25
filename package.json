@@ -1,0 +1,12 @@
+{
+  "name": "miniapi-jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "program.cs",
+  "scripts": {
+    "start": "program.cs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Reza",
+  "license": ""
+}
