@@ -9,7 +9,7 @@ RUN dotnet restore
 
 # copy everything else and build app
 WORKDIR /MiniApiJWT
-RUN dotnet publish -c release -o /app --no-restore
+RUN dotnet publish -c release -o /MiniApiJWT --no-restore
 
 # final stage/image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
