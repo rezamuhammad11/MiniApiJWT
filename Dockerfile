@@ -4,7 +4,7 @@ WORKDIR /source
 
 # copy csproj and restore as distinct layers
 COPY *.sln .
-COPY MiniApiJWT/*.csproj ./MiniApiJWT/
+COPY *.csproj .
 RUN dotnet restore
 
 # copy everything else and build app
