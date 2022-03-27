@@ -8,7 +8,7 @@ COPY *.csproj .
 RUN dotnet restore
 
 # copy everything else and build app
-COPY MiniApiJWT/. ./MiniApiJWT/
+COPY MiniApiJWT/. 
 WORKDIR /source/MiniApiJWT
 RUN dotnet publish -c release -o /app --no-restore
 
