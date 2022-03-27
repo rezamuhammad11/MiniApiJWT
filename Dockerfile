@@ -13,6 +13,6 @@ RUN dotnet publish -c release -o / --no-restore
 
 # final stage/image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
-WORKDIR /app
-COPY --from=build /app ./
+WORKDIR /
+COPY --from=build / ./
 ENTRYPOINT ["dotnet", "MiniApiJWT.dll"]
